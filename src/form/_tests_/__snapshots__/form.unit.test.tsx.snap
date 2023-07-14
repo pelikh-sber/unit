@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Форма авторизации Заполняется данными и вызывает ивент отправки 1`] = `
+<body>
+  <div>
+    <form>
+      <legend>
+        Do you agree to the terms?
+      </legend>
+      <label>
+        <input
+          data-testid="login_input"
+          name="login"
+        />
+      </label>
+      <label>
+        <input
+          data-testid="password_input"
+          name="password"
+        />
+      </label>
+      <button
+        data-testid="submit_button"
+      >
+        some
+      </button>
+    </form>
+  </div>
+</body>
+`;
+
+exports[`Форма авторизации Рендерится успешно 1`] = `
+<body>
+  <div>
+    <form>
+      <legend>
+        Do you agree to the terms?
+      </legend>
+      <label>
+        <input
+          data-testid="login_input"
+          name="login"
+        />
+      </label>
+      <label>
+        <input
+          data-testid="password_input"
+          name="password"
+        />
+      </label>
+      <button
+        data-testid="submit_button"
+      >
+        some
+      </button>
+    </form>
+  </div>
+</body>
+`;
